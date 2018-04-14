@@ -262,7 +262,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "George S. Patton"
+	name = "David Janiga"
 	picture = "Portrait_USA_George_S_Patton.dds"
 	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
 	skill = 5
@@ -274,7 +274,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Omar Bradley"
+	name = "John McCain"
 	picture = "Portrait_USA_Omar_Bradley.dds"
 	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
 	skill = 5
@@ -286,7 +286,7 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "Dwight D. Eisenhower"
+	name = "Muhammad Janiga"
 	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
 	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
 	skill = 5
@@ -298,7 +298,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Geoffrey Keyes"
+	name = "Chodey Kelly"
 	picture = "Portrait_USA_Geoffrey_Keyes.dds"
 	traits = { armor_officer career_officer }
 	skill = 2
@@ -310,7 +310,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Lucian Truscott"
+	name = "Evan Blenko"
 	picture = "Portrait_USA_Lucian_Truscott.dds"
 	traits = { trait_engineer commando cavalry_officer }
 	skill = 3
