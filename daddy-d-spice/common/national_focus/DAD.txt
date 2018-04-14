@@ -1,0 +1,66 @@
+focus_tree = {
+	id = DaddyDEmpire
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DAD
+		}
+	}
+	default = no
+	focus = {
+		id = DAD_Political_Debates
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = DAD_Army_Focus
+		icon = GFX_goal_generic_axis_build_infantry
+		cost = 10.00
+		x = 14
+		y = 0
+
+	}
+	focus = {
+		id = DAD_Fascism_Rises
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Political_Debates
+		}
+		mutually_exclusive = {
+			focus = DAD_Communism_Rises
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = DAD_Communism_Rises
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Political_Debates
+		}
+		mutually_exclusive = {
+			focus = DAD_Fascism_Rises
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = DAD_Military_Factories
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Army_Focus
+		}
+		x = 14
+		y = 1
+
+	}
+}
