@@ -192,18 +192,13 @@ set_politics = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
-	home_of_the_free
+
 }
 
 
 # DIPLOMACY
 set_autonomy = {
-	target = PHI
-	autonomous_state =  autonomy_puppet
+
 }
 
 1939.1.1 = {
@@ -237,7 +232,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
-	ideology = liberalism
+	ideology = fascism_ideology
 	traits = {
 		dislikes_germany
 	}
