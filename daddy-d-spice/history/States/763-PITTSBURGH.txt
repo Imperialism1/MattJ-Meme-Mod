@@ -1,0 +1,18 @@
+state={
+	id=763
+	name="STATE_763"
+	provinces={
+		880 3802 6705 11789 11800 
+	}
+	manpower=500000
+	buildings_max_level_factor=5.000
+	history={
+		owner = PIT
+		buildings = {
+			infrastructure = 3
+			arms_factory = 5
+			industrial_complex = 10
+			}
+		}
+	state_category=megalopolis
+}
