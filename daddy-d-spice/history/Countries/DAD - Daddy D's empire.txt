@@ -263,7 +263,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "David Janiga"
-	picture = "Portrait_USA_George_S_Patton.dds"
+	picture = "Portrait_DAD_David_Janiga_result.png"
 	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
 	skill = 5
 
