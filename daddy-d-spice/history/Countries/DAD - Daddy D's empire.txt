@@ -229,7 +229,7 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "Daddy D The IT Guy"
+	name = "The IT Guy Daddy D"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
@@ -240,7 +240,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "William Dudley Pelley"
+	name = "The IT Guy Daddy D"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
@@ -251,7 +251,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Earl Browder"
+	name = "The IT Guy Daddy D"
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
