@@ -188,17 +188,22 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 add_ideas = {
-
+	undisturbed_isolation
+	great_depression
+	disarmed_nation
+	free_trade
+	home_of_the_free
 }
 
 
 # DIPLOMACY
 set_autonomy = {
-
+	target = PHI
+	autonomous_state =  autonomy_puppet
 }
 
 1939.1.1 = {
@@ -232,7 +237,7 @@ create_country_leader = {
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
 	picture = "Portrait_USA_Franklin_Roosevelt.dds"
 	expire = "1947.1.1"
-	ideology = fascism_ideology
+	ideology = liberalism
 	traits = {
 		dislikes_germany
 	}
