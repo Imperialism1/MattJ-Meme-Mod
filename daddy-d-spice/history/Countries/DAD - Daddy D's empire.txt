@@ -185,10 +185,10 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascist
+	ruling_party = fascism
 	last_election = "1932.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 add_ideas = {
