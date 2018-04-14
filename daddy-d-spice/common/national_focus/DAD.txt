@@ -20,7 +20,23 @@ focus_tree = {
 		id = DAD_Army_Focus
 		icon = GFX_goal_generic_axis_build_infantry
 		cost = 10.00
-		x = 14
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = DAD_Foreign_Relations
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 10.00
+		x = 12
+		y = 0
+
+	}
+	focus = {
+		id = DAD_Industrial_Focus
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		x = 2
 		y = 0
 
 	}
@@ -39,6 +55,17 @@ focus_tree = {
 
 	}
 	focus = {
+		id = DAD_Fascist_Ideals
+		icon = GFX_goal_support_fascism
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Fascism_Rises
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
 		id = DAD_Communism_Rises
 		icon = GFX_goal_support_communism
 		cost = 10.00
@@ -53,14 +80,48 @@ focus_tree = {
 
 	}
 	focus = {
+		id = DAD_Communist_Ideals
+		icon = GFX_goal_support_communism
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Communism_Rises
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = DAD_Create_Faction
+		icon = GFX_goal_anschluss
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Foreign_Relations
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
 		id = DAD_Military_Factories
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
 			focus = DAD_Army_Focus
 		}
-		x = 14
+		x = 15
 		y = 1
+
+	}
+	focus = {
+		id = DAD_Strike_Mexico
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Fascist_Ideals
+			focus = DAD_Communist_Ideals
+		}
+		x = 7
+		y = 4
 
 	}
 }
