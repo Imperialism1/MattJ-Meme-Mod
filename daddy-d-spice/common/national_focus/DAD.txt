@@ -11,7 +11,7 @@ focus_tree = {
 	focus = {
 		id = DAD_Political_Debates
 		icon = GFX_goal_generic_neutrality_focus
-		cost = 10.00
+		cost = 5.00
 		x = 7
 		y = 0
 
@@ -38,6 +38,17 @@ focus_tree = {
 		cost = 10.00
 		x = 2
 		y = 0
+
+	}
+	focus = {
+		id = DAD_Expand_Factories
+		icon = GFX_goal_generic_construct_civilian
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Industrial_Focus
+		}
+		x = 2
+		y = 1
 
 	}
 	focus = {
@@ -91,6 +102,18 @@ focus_tree = {
 
 	}
 	focus = {
+		id = DAD_Prepare_for_War
+		icon = GFX_focus_SAF_colonialist_crusade
+		cost = 2.00
+		prerequisite = {
+			focus = DAD_Fascist_Ideals
+			focus = DAD_Communist_Ideals
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
 		id = DAD_Create_Faction
 		icon = GFX_goal_anschluss
 		cost = 10.00
@@ -117,11 +140,98 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		cost = 10.00
 		prerequisite = {
-			focus = DAD_Fascist_Ideals
-			focus = DAD_Communist_Ideals
+			focus = DAD_Final_Preperations 
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = DAD_Expand_Draft
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Prepare_for_War
 		}
 		x = 7
 		y = 4
+
+	}
+	focus = {
+		id = DAD_Equipment_Overview 
+		icon = GFX_goal_generic_small_arms
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Expand_Draft
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = DAD_Final_Preperations 
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Equipment_Overview 
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = DAD_Prepare_for_Canada
+		icon = GFX_focus_generic_military_academy
+		cost = 4.00
+		prerequisite = {
+			focus = DAD_Final_Preperations 
+		}
+		x = 10
+		y = 7
+
+	}
+	focus = {
+		id = DAD_Move_Troops_into_Bordering_States
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 3.00
+		prerequisite = {
+			focus = DAD_Prepare_for_Canada
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = DAD_Exile_Canada_to_Nova_Scotia
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Move_Troops_into_Bordering_States
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = DAD_Industrialize_Mexico
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 5.00
+		prerequisite = {
+			focus = DAD_Strike_Mexico
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = DAD_Capture_Belize
+		icon = GFX_focus_prc_infiltration
+		cost = 5.00
+		prerequisite = {
+			focus = DAD_Strike_Mexico
+		}
+		x = 4
+		y = 8
 
 	}
 }
