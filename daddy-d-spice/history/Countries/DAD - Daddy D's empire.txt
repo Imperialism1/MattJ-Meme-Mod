@@ -323,7 +323,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ben Royce"
-	picture = "Portrait_USA_Mark_W_Clark.dds"
+	picture = "Portrait_DAD_Ben_Royce_result.png"
 	traits = { infantry_officer trait_reckless }
 	skill = 4
 
