@@ -1,6 +1,6 @@
 capital = 763
 
-#oob = "USA_1936"
+oob = "PIT_1936"
 
 set_research_slots = 4
 set_stability = 0.75
