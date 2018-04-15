@@ -208,9 +208,9 @@ set_autonomy = {
 }
 
 create_country_leader = {
-	name = "The IT Guy Daddy D"
+	name = "Bill Peduto"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_DAD_Daddy_D_result.png"
+	picture = "Portrait_PIT_Bill_Peduto_result.png"
 	expire = "1947.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -219,9 +219,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "The IT Guy Daddy D"
+	name = "Bill Peduto"
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_DAD_Daddy_D_result.png"
+	picture = "Portrait_PIT_Bill_Peduto_result.png"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -230,9 +230,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "The IT Guy Daddy D"
+	name = "Bill Peduto"
 	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "Portrait_DAD_Daddy_D_result.png"
+	picture = "Portrait_PIT_Bill_Peduto_result.png"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
