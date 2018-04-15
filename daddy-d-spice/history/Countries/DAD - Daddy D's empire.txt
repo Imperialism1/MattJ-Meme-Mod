@@ -275,7 +275,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Muhammad Janiga"
-	picture = "Portrait_USA_Omar_Bradley.dds"
+	picture = "Portrait_DAD_Muhammad_Janiga_result.png"
 	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
 	skill = 5
 
@@ -360,7 +360,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Mary Ann Tomich"
-	picture = "Portrait_USA_Lloyd_Fredendall.dds"
+	picture = "Portrait_DAD_Mary_Ann_Tomich_result.png"
 	traits = { old_guard infantry_officer inflexible_strategist }
 	skill = 2
 
