@@ -241,7 +241,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "David Janiga"
+	name = "Gene Kelly"
 	picture = "Portrait_DAD_David_Janiga_result.png"
 	traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
 	skill = 5
@@ -253,7 +253,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Muhammad Janiga"
+	name = "Fred Rogers"
 	picture = "Portrait_USA_Omar_Bradley.dds"
 	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
 	skill = 5
@@ -265,7 +265,7 @@ create_corps_commander = {
 }
 
 create_field_marshal = {
-	name = "John McCain"
+	name = "Mike Ditka"
 	picture = "Portrait_USA_Dwight_D_Eisenhower.dds"
 	traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
 	skill = 5
@@ -277,7 +277,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Chodey Kelly"
+	name = "Billy Mays"
 	picture = "Portrait_USA_Geoffrey_Keyes.dds"
 	traits = { armor_officer career_officer }
 	skill = 2
@@ -289,7 +289,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Evan Blenko"
+	name = "George Washington Gale Ferris Jr"
 	picture = "Portrait_USA_Lucian_Truscott.dds"
 	traits = { trait_engineer commando cavalry_officer }
 	skill = 3
@@ -301,7 +301,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ben Royce"
+	name = "Michael Keaton"
 	picture = "Portrait_USA_Mark_W_Clark.dds"
 	traits = { infantry_officer trait_reckless }
 	skill = 4
@@ -326,7 +326,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Matts Mom"
+	name = "Bill Priatko"
 	picture = "Portrait_USA_Walter_Krueger.dds"
 	traits = { armor_officer career_officer brilliant_strategist }
 	skill = 3
@@ -338,7 +338,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mary Ann Tomich"
+	name = "Antonio Brown"
 	picture = "Portrait_USA_Lloyd_Fredendall.dds"
 	traits = { old_guard infantry_officer inflexible_strategist }
 	skill = 2
@@ -350,7 +350,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Ross Cohen"
+	name = "Le'Veon Bell"
 	picture = "Portrait_USA_Lesley_McNair.dds"
 	traits = {  old_guard career_officer armor_officer }
 	skill = 3
@@ -362,7 +362,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Jonathan Wainwright"
+	name = "Ben Roethlisberger"
 	picture = "Portrait_USA_Jonathan_Wainwright.dds"
 	traits = {  }
 	skill = 1
@@ -373,7 +373,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Russell Hartle"
+	name = "James Irwin"
 	picture = "Portrait_USA_Russell_P_Hartle.dds"
 	traits = { infantry_officer }
 	skill = 1
