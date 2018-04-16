@@ -1,5 +1,6 @@
 focus_tree = {
 	id = DaddyDEmpire
+	continuous_focus_position = {x = 2100 y = 1750}
 	country = {
 		factor = 0
 		modifier = {
