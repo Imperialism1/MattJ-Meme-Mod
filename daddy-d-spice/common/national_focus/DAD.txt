@@ -28,6 +28,12 @@ focus_tree = {
 		x = 16
 		y = 0
 
+		completion_reward = {
+			add_war_support = 0.1
+			add_manpower = 8000 
+			load_oob = PIT_1936
+		}
+
 	}
 	focus = {
 		id = DAD_Foreign_Relations
@@ -35,6 +41,10 @@ focus_tree = {
 		cost = 10.00
 		x = 12
 		y = 0
+
+		completion_reward = {
+			add_political_power = 100
+		}
 
 	}
 	focus = {
@@ -44,7 +54,47 @@ focus_tree = {
 		x = 2
 		y = 0
 
+		completion_reward = {
+			261 = 
+                {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+            357 = 
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+            358 = 
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+            359 = 
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+		}
+
 	}
+
 	focus = {
 		id = DAD_Expand_Factories
 		icon = GFX_goal_generic_construct_civilian
@@ -54,6 +104,69 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
+
+		completion_reward = {
+			261 = 
+				
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+            357 = 
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+            358 = 
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+            359 = 
+                  {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = industrial_complex 
+                 level = 2
+                 instant_build = yes }
+                }    
+		}
+
+	}
+
+	focus = {
+		id = DAD_Research_Construction 
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Expand_Factories
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = DAD_Consumer_Goods
+		icon = GFX_goal_generic_consumer_goods
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Research_Construction 
+		}
+		x = 2
+		y = 3
 
 	}
 	focus = {
@@ -108,7 +221,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DAD_Prepare_for_War
-		icon = GFX_focus_SAF_colonialist_crusade
+		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 2.00
 		prerequisite = {
 			focus = DAD_Fascist_Ideals
@@ -136,8 +249,30 @@ focus_tree = {
 		prerequisite = {
 			focus = DAD_Army_Focus
 		}
-		x = 15
+		x = 16
 		y = 1
+
+	}
+	focus = {
+		id = DAD_More_Military_Factories
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Military_Factories
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = DAD_Ports
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_More_Military_Factories
+		}
+		x = 16
+		y = 3
 
 	}
 	focus = {
@@ -237,6 +372,45 @@ focus_tree = {
 		}
 		x = 4
 		y = 8
+
+	}
+	focus = {
+		id = DAD_War_Support
+		icon = GFX_focus_generic_license_production
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Army_Focus
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = DAD_Puppet_Canada
+		icon = GFX_focus_generic_strike_at_democracy3
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Exile_Canada_to_Nova_Scotia
+		}
+		mutually_exclusive = {
+			focus = DAD_Capture_Greenland
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = DAD_Capture_Greenland
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = DAD_Exile_Canada_to_Nova_Scotia
+		}
+		mutually_exclusive = {
+			focus = DAD_Puppet_Canada
+		}
+		x = 12
+		y = 10
 
 	}
 }
