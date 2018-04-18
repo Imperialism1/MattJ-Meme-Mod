@@ -148,6 +148,6 @@ music = {
 music = {
 	name = "Nfl_On_Fox"
 	file = "NFLonFox.ogg"
-	volume = 0.100
+	volume = .9
 }
 
