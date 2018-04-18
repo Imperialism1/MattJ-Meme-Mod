@@ -293,3 +293,16 @@ music = {
 		}		
 	}	
 }
+music = {
+	song = "Nfl_On_Fox"
+	
+	chance = {
+		modifier = {
+			factor = 45
+
+		}		
+	}	
+}
+
+
+

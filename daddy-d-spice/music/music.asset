@@ -143,5 +143,11 @@ music = {
 music = {
 	name = "Blend_S_Theme"
 	file = "BlendsOp.ogg"
-	volume = 0.75
+	volume = 0.90
 }
+music = {
+	name = "Nfl_On_Fox"
+	file = "NFLonFox.ogg"
+	volume = 0.100
+}
+
