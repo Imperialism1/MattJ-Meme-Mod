@@ -11,7 +11,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = DAD_Political_Debates
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_DAD_Nick
 		cost = 5.00
 		x = 7
 		y = 0
@@ -321,7 +321,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DAD_Prepare_for_Canada
-		icon = GFX_focus_generic_military_academy
+		icon = GFX_focus_DAD_Canada
 		cost = 4.00
 		prerequisite = {
 			focus = DAD_Final_Preperations 
