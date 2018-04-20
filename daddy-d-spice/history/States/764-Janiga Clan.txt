@@ -5,16 +5,16 @@ state={
 		oil=5.000
 	}
 	history={
-		owner = SAU
+		owner = JAN
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
 			arms_factory = 1
-			industrial_complex = 1
+			industrial_complex = 2
 
 
 		}
 		
-		add_core_of = SAU
+		add_core_of = JAN
 
 	}
 

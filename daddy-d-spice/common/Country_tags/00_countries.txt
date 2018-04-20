@@ -114,3 +114,4 @@ MAN = "countries/Manchukou.txt"
 ###################################
 DAD = "countries/Daddy D's empire.txt"
 PIT = "countries/Pittsburgh.txt"
+JAN = "countries/Janiga Clan.txt"

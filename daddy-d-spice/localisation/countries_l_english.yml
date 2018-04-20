@@ -1359,6 +1359,8 @@
  DAD_fascism_DEF:0 "Daddy D's empire"
  PIT_fascism:0 "Pittsburgh"
  PIT_fascism_DEF:0 "Pittsburgh"
+ JAN_fascism:0 "Janiga Clan"
+ JAN_fascism_DEF:0 "Janiga Clan"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
