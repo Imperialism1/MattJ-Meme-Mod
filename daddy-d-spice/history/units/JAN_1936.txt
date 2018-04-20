@@ -100,7 +100,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 880
+		location = 2057
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -109,7 +109,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 880
+		location = 4968
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -118,7 +118,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 3802
+		location = 5027
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -127,7 +127,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11789
+		location = 5093
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -136,7 +136,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 11800
+		location = 5099
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 	}
@@ -145,7 +145,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 42
 		}
-		location = 6705
+		location = 12870
 		division_template = "Division d'Infanterie" 	# Frontline, best equipment
 		start_experience_factor = 0.3
 }
