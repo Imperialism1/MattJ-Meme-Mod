@@ -304,5 +304,15 @@ music = {
 	}	
 }
 
+music = {
+	song = "Sleigh_Ride"
+	
+	chance = {
+		modifier = {
+			factor = 45
+
+		}		
+	}	
+}
 
 

@@ -150,4 +150,10 @@ music = {
 	file = "NFLonFox.ogg"
 	volume = .9
 }
+music = {
+	name = "Sleigh_Ride"
+	file = "SleighRide.ogg"
+	volume = .9
+}
+
 
