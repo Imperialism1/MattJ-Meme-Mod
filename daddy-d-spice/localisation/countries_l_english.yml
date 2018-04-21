@@ -1361,6 +1361,10 @@
  PIT_fascism_DEF:0 "Pittsburgh"
  JAN_fascism:0 "Janiga Clan"
  JAN_fascism_DEF:0 "Janiga Clan"
+ ROY_fascism:0 "NewAlecVille"
+ ROY_fascism_DEF:0 "NewAlecVille"
+ ROY_neutrality:0 "Royalists"
+ ROY_neutrality_DEF:0 "Royalists of NewAlecVille"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
