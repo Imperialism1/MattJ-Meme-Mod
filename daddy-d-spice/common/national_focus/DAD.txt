@@ -382,6 +382,48 @@ focus_tree = {
 		x = 16
 		y = 3
 
+
+		completion_reward = {
+			366 = 
+				
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = dockyard 
+                 level = 2
+                 instant_build = yes }
+                }    
+            365 = 
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = dockyard
+                 level = 2
+                 instant_build = yes }
+                }    
+            364 = 
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = dockyard
+                 level = 2
+                 instant_build = yes }
+                }    
+            363 = 
+                  {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = dockyard 
+                 level = 2
+                 instant_build = yes }
+                }  
+               }  
+		
+
 		
 
 	}
@@ -395,6 +437,10 @@ focus_tree = {
 		x = 4
 		y = 7
 
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = MEX }
+		}
+
 	}
 	focus = {
 		id = DAD_Expand_Draft
@@ -405,6 +451,11 @@ focus_tree = {
 		}
 		x = 7
 		y = 4
+
+		completion_reward = {
+			add_manpower = 100000
+		}
+
 
 	}
 	focus = {
@@ -417,6 +468,10 @@ focus_tree = {
 		x = 7
 		y = 5
 
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.5 uses = 4 category = infantry_weapons }
+		}
+
 	}
 	focus = {
 		id = DAD_Final_Preperations 
@@ -427,6 +482,20 @@ focus_tree = {
 		}
 		x = 7
 		y = 6
+
+		completion_reward = {
+			add_manpower = 100000
+			261 = 
+				
+                 {add_extra_state_shared_building_slots = 2
+                  add_building_construction = 
+
+                 { 
+                 type = arms_factory 
+                 level = 2
+                 instant_build = yes }
+                }    
+		}
 
 	}
 	focus = {
@@ -439,6 +508,8 @@ focus_tree = {
 		x = 10
 		y = 7
 
+
+
 	}
 	focus = {
 		id = DAD_Move_Troops_into_Bordering_States
@@ -449,6 +520,15 @@ focus_tree = {
 		}
 		x = 10
 		y = 8
+
+		completion_reward = {
+			DAD = { set_state_owner = 473 }
+			DAD = { set_state_owner = 470 }
+			DAD = { set_state_owner = 469 }
+			DAD = { set_state_owner = 467 }
+			DAD = { set_state_owner = 682 }
+			DAD = { set_state_owner = 276 }
+		}
 
 	}
 	focus = {
